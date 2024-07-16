@@ -150,7 +150,7 @@ const HomePage: React.FC = () => {
         <div className="shape" />
       </div>
       <form>
-        <h3>Login Here</h3>
+        <h3>Login page</h3>
         <label htmlFor="username">Username</label>
         <input type="text" placeholder="Email or Phone" id="username" />
         <label htmlFor="password">Password</label>
@@ -164,6 +164,9 @@ const HomePage: React.FC = () => {
           </div>
           <div className="fb">
             <i className="fab fa-facebook" /> Facebook
+          </div>
+          <div className="tiktok">
+            <i className="tk tk-tiktok" /> Facebook
           </div>
         </div>
       </form>
