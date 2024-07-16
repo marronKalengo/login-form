@@ -155,7 +155,7 @@ const HomePage: React.FC = () => {
         <input type="text" placeholder="Email or Phone" id="username" />
         <label htmlFor="password">Password</label>
         <input type="password" placeholder="Password" id="password" />
-        <a href="/users" passHref>
+        <a>
           <button type="button">Log In</button>
         </a>
         <div className="social">
